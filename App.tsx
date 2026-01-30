@@ -1,5 +1,5 @@
 import React from 'react';
-// Must include .tsx extension for direct browser loading
+// Explicitly import with .tsx extension for Babel Standalone
 import VideoGenerator from './components/VideoGenerator.tsx';
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen bg-black text-white p-6 font-sans selection:bg-blue-500 selection:text-white">
       <header className="flex flex-col md:flex-row justify-between items-center border-b border-gray-800 pb-6 mb-8 gap-4">
         <h1 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-blue-400 via-purple-500 to-pink-600 bg-clip-text text-transparent tracking-tighter">
-          অমনি কাট এআই প্রো+
+          শাহিন এআই প্রো+
         </h1>
         <div className="flex gap-4">
           <button className="bg-gray-800 hover:bg-gray-700 px-6 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-white">
